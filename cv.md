@@ -18,7 +18,7 @@ Email: lerapro-13@list.ru \
 
 ## Summary
 
-Highly-motivated beginner exiting about web development. Being hardworking and purposeful I’m going to continue develop my skills on programming (including self-education) to get first job offer.
+Highly-motivated beginner exiting about web development. Being hardworking and purposeful I’m going to continue develop my skills to get first job offer.
 
 ---
 
@@ -50,6 +50,9 @@ Certificate: [certificate](https://cloud.mail.ru/public/54i4/CaRWQSxPv)
 **September 2021 - December 2021** – Educational Center for Programming and High Tech (IT-Academy) \
 Course: website development with HTML, CSS and JavaScript \
 Certificate: [certificate](https://cloud.mail.ru/public/28s8/VYdcrJ83a)
+
+**September 2013 - June 2017** – Belarusian State Economic University \
+Specialization: finance and banking
 
 ---
 
