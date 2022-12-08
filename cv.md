@@ -1,4 +1,4 @@
-rs-school
+## rs-school
 
 ---
 
@@ -8,17 +8,17 @@ rs-school
 
 ---
 
-## Contacts:
+## Contacts
 
-Email: lerapro-13@list.ru \
 Phone: +375 29 6095196 \
+Email: lerapro-13@list.ru \
 [LinkedIn](https://www.linkedin.com/in/valeria-proshkina-b48285240/)
 
 ---
 
 ## Summary
 
-Highly-motivated person
+Highly-motivated beginner exiting about web development. Being hardworking and purposeful I’m going to continue develop my skills on programming (including self-education) to get first job offer.
 
 ---
 
@@ -26,7 +26,7 @@ Highly-motivated person
 
     - HTML
     - CSS
-    - JS
+    - JavaScript
     - Git
 
 ---
@@ -34,26 +34,34 @@ Highly-motivated person
 ## Code example
 
 ```
-
+function solution(str){
+  return str.split("").reverse().join("")
+}
 ```
 
 ---
 
 ## Education
 
-    - IT Academy (Feb 2022 - May 2022) Web application development with JavaScript
-    - IT Academy (Dec 2021 - Jan 2022) Website development with HTML, CSS and JavaScript
+**February 2022 - May 2022** – Educational Center for Programming and High Tech (IT-Academy) \
+Course: web application development with JavaScript \
+Certificate: [certificate](https://cloud.mail.ru/public/54i4/CaRWQSxPv)
+
+**September 2021 - December 2021** – Educational Center for Programming and High Tech (IT-Academy) \
+Course: website development with HTML, CSS and JavaScript \
+Certificate: [certificate](https://cloud.mail.ru/public/28s8/VYdcrJ83a)
 
 ---
 
 ## Expirience
 
-Trainee web application developer
-Trainee website developer
+**February 2022 - May 2022** – Trainee, Educational Center for Programming and High Tech
+(IT-Academy) \
+**December 2021 - January 2022** – Trainee, Educational Center for Programming and High Tech (IT-Academy)
 
 ---
 
-## Language
+## Languages
 
-Russian - native speaker \
-English - B2
+English - intermediate (B1) \
+Russian - native
