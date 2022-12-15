@@ -13,10 +13,8 @@
     <title>CV</title>
   </head>
   <body>
-    <div class="wrapper">
-      <!-- header -->
+    <div class="main__container">
       <header class="header">
-        <!-- nav -->
         <nav class="nav">
           <ul class="nav__list">
             <li class="nav__item"><a href="#profile">profile</a></li>
@@ -27,39 +25,57 @@
             <li class="nav__item"><a href="#education">education</a></li>
           </ul>
         </nav>
-
-        <div class="wrapper__mini">
-          <figure>
-            <img
-              src="./DB94AB50-7C5A-433A-9B92-39B856D19D49.png"
-              alt="my photo"
-            />
-          </figure>
-          <section class="section section__profile" id="profile">
-            <h1>Proshkina Valeria</h1>
-            <p>Front-end Developer</p>
-          </section>
-        </div>
       </header>
+
+      <!-- pre-main -->
+      <div class="main pre-main">
+        <div class="container row">
+          <div class="inner__small">
+            <figure>
+              <img
+                src="./DB94AB50-7C5A-433A-9B92-39B856D19D49.png"
+                alt="my photo"
+              />
+            </figure>
+          </div>
+          <div class="inner__big column">
+            <section class="section column" id="profile">
+              <h1>Proshkina Valeria</h1>
+              <p><i>Front-end Developer</i></p>
+            </section>
+          </div>
+        </div>
+      </div>
 
       <!-- main -->
       <main class="main">
         <!-- small part -->
-        <div class="wrapper__mini">
+        <div class="container row">
           <div class="inner__small">
             <section class="section" id="contacts">
               <h2>contacts</h2>
-              <div class="center">
-                <span class="material-symbols-outlined"> phone_iphone </span>
-                +375 29 6095196 <br />
-              </div>
-              <div class="center">
-                <span class="material-symbols-outlined"> mail </span>
-                lerapro-13@list.ru <br />
-              </div>
-              <a href="https://www.linkedin.com/in/valeria-proshkina-b48285240/"
-                >LinkedIn</a
-              >
+              <ul>
+                <li>
+                  <div class="center">
+                    <span class="material-symbols-outlined">
+                      phone_iphone
+                    </span>
+                    +375 29 6095196 <br />
+                  </div>
+                </li>
+                <li>
+                  <div class="center">
+                    <span class="material-symbols-outlined"> mail </span>
+                    lerapro-13@list.ru <br />
+                  </div>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/valeria-proshkina-b48285240/"
+                    >LinkedIn</a
+                  >
+                </li>
+              </ul>
             </section>
             <section class="section" id="skills">
               <h2>skills</h2>
@@ -92,48 +108,61 @@
             <section class="section" id="code">
               <h2>code</h2>
               <code
-                >function solution(str){ return str.split("").reverse().join("")
+                >function solution(str){return str.split("").reverse().join("")}
               </code>
             </section>
             <section class="section" id="courses">
               <h2>courses</h2>
               <p>
+                December 2022 - untill now – RS School <br />
+
+                Web application development with JavaScript <br />
                 February 2022 - May 2022 – Educational Center for Programming
                 and High Tech (IT-Academy) <br />
+
+                Website development with HTML, CSS and JavaScript <br />
                 December 2021 - January 2022 – Educational Center for
-                Programming and High Tech (IT-Academy) <br />
-                December 2022 - till now - RS School
+                Programming and High Tech (IT-Academy)
               </p>
             </section>
             <section class="section" id="projects">
               <h2>projects</h2>
               <p>
-                February 2022 - May 2022 – Trainee, Educational Center for
-                Programming and High Tech (IT-Academy)<br />
-                Project: ссылка на GitHub <br />
-                Project role: software developer <br />
-                Project description: STAR-WARS application, which contains 2
-                pages (home, description of the film). All films are represented
-                on the home page. There you can change the way of films
-                presentation (block or list), sort films by episode and release
-                date (up and down) and add the film to your favorites. Clicking
-                the film on the main page you move to the film page with film
-                poster, description, tittle, episode number and characters.
-                There I practice skills on JavaScript, also have attempts on
-                working with node.js, express (create server to render film
-                page).
+                <b>Project:</b>
+                <a href="https://github.com/valeri-pro/star-wars"
+                  >link GitHub</a
+                >
+                <br />
+                <b>Project role:</b> software developer <br />
+                <span class="project__description">
+                  <b>Project description:</b> STAR-WARS application, which
+                  contains 2 pages (home, description of the film). All films
+                  are represented on the home page. There you can change the way
+                  of films presentation (block or list), sort films by episode
+                  and release date (up and down) and add the film to your
+                  favorites. Clicking the film on the main page you move to the
+                  film page with film poster, description, tittle, episode
+                  number and characters. There I practice skills on JavaScript,
+                  also have attempts on working with node.js, express (create
+                  server to render film page).
+                </span>
               </p>
               <p>
-                December 2021 - January 2022 – Trainee, Educational Center for
-                Programming and High Tech (IT-Academy) <br />
-                Project: <a>ссылка на GitHub</a> <br />
-                Project role: software developer Project description: E-commerce
-                website, which contains 4 pages (home, description of the
-                product, about us, contacts). There you can find a pop-up,
-                drop-down menu, carousel (use Bootstrap). You can add products
-                to shopping cart and sum up prices of all your purchases. All
-                items are stored in localStorage. This project was mainly made
-                to practice knowledge of HTML, CSS and JavaScript.
+                <b>Project:</b>
+                <a href="https://github.com/valeri-pro/valeri-pro.github.io"
+                  >link GitHub</a
+                >
+                <br />
+                <b>Project role:</b> software developer <br />
+                <span class="project__description">
+                  <b>Project description:</b> E-commerce website, which contains
+                  4 pages (home, description of the product, about us,
+                  contacts). There you can find a pop-up, drop-down menu,
+                  carousel (use Bootstrap). You can add products to shopping
+                  cart and sum up prices of all your purchases. All items are
+                  stored in localStorage. This project was mainly made to
+                  practice knowledge of HTML, CSS and JavaScript.</span
+                >
               </p>
             </section>
             <section class="section" id="education">
