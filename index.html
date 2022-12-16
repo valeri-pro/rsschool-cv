@@ -52,28 +52,17 @@
         <!-- small part -->
         <div class="container row">
           <div class="inner__small">
-            <section class="section" id="contacts">
+            <section class="section section__contacts" id="contacts">
               <h2>contacts</h2>
               <ul>
-                <li>
-                  <div class="center">
-                    <span class="material-symbols-outlined">
-                      phone_iphone
-                    </span>
-                    +375 29 6095196 <br />
-                  </div>
-                </li>
-                <li>
-                  <div class="center">
-                    <span class="material-symbols-outlined"> mail </span>
-                    lerapro-13@list.ru <br />
-                  </div>
-                </li>
+                <li>+375 29 6095196</li>
+                <li>lerapro-13@list.ru</li>
                 <li>
                   <a
                     href="https://www.linkedin.com/in/valeria-proshkina-b48285240/"
-                    >LinkedIn</a
                   >
+                    linkedin
+                  </a>
                 </li>
               </ul>
             </section>
@@ -108,7 +97,9 @@
             <section class="section" id="code">
               <h2>code</h2>
               <code
-                >function solution(str){return str.split("").reverse().join("")}
+                >function solution(str) {<br />
+                return str.split("").reverse().join("") <br />
+                }
               </code>
             </section>
             <section class="section" id="courses">
@@ -198,10 +189,16 @@
       <footer class="footer">
         <ul class="footer__list">
           <li class="footer__item">
-            <a href="https://github.com/valeri-pro">Github</a>
+            <a class="center" href="https://github.com/valeri-pro">
+              <img class="logo--git" src="./icons8-github.svg" alt="" />
+            </a>
           </li>
           <li class="footer__item">2022</li>
-          <li class="footer__item">RS</li>
+          <li class="footer__item">
+            <a href="https://rs.school/js/"
+              ><img class="logo--rsschool" src="./rs_school_js.svg"
+            /></a>
+          </li>
         </ul>
       </footer>
     </div>
